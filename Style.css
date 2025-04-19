@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box; /* Ensures consistent padding and border behavior */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
+}
+
+.column {
+    flex: 33.33%; /* Each column takes up 1/3 of the row */
+    padding: 5px;
+}
